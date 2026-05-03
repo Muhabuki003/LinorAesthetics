@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Linor Aesthetic — Refined. Natural. You.</title>
-<meta name="description" content="Luxury aesthetic medicine in Houston & Katy. Injectables, skin rejuvenation, body contouring — refined results, natural enhancement." />
+<meta name="description" content="Luxury aesthetic medicine in Houston, Katy & Spring. Injectables, skin rejuvenation, body contouring — refined results, natural enhancement." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -244,6 +244,7 @@ body {
 .location-cta { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-deep); text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 6px; align-self: end; margin-top: 28px; transition: color 0.3s ease, gap 0.3s ease; }
 .location-cta:hover { gap: 14px; color: var(--gold); }
 .location-stamp { position: absolute; top: 36px; right: 36px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.24em; color: var(--gold-deep); border: 1px solid rgba(201,165,92,0.4); padding: 4px 10px; text-transform: uppercase; }
+@media (max-width: 1200px) { .locations-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 880px) { .locations-grid { grid-template-columns: 1fr; } .location-card { grid-template-columns: 1fr; } }
 
 .book-banner { text-align: center; max-width: 880px; margin: 0 auto; position: relative; }
@@ -308,7 +309,7 @@ body {
 <!-- HERO -->
 <header class="hero" id="top">
   <div class="hero-copy">
-    <span class="eyebrow reveal">Aesthetic Medicine · Houston · Katy</span>
+    <span class="eyebrow reveal">Aesthetic Medicine · Houston · Katy · Spring</span>
     <h1 class="display reveal reveal-d-1">Refined. <em>Natural.</em><br />You.</h1>
     <p class="hero-sub reveal reveal-d-2">A clinical sanctuary where precision meets restraint. We sculpt subtle outcomes that look like rest, not work — your features, quietly elevated.</p>
     <div class="hero-actions reveal reveal-d-3">
@@ -501,11 +502,11 @@ body {
   <div class="section-head">
     <div class="reveal">
       <span class="eyebrow">06 — Visit</span>
-      <h2 class="display">Two <em>sanctuaries.</em></h2>
+      <h2 class="display">Three <em>sanctuaries.</em></h2>
     </div>
-    <p class="lede reveal reveal-d-1">Both studios are designed as quiet retreats — diffused lighting, hand-thrown ceramics, and the unhurried pace of a treatment that takes the time it needs.</p>
+    <p class="lede reveal reveal-d-1">All studios are designed as quiet retreats — diffused lighting, hand-thrown ceramics, and the unhurried pace of a treatment that takes the time it needs.</p>
   </div>
-  <div class="locations-grid">
+  <div class="locations-grid" style="grid-template-columns: repeat(3,1fr);">
     <div class="location-card reveal">
       <span class="location-stamp">Flagship</span>
       <div>
@@ -516,7 +517,7 @@ body {
           <dt>Saturday</dt><dd>10:00 — 4:00</dd>
           <dt>Sunday</dt><dd>By appointment</dd>
         </dl>
-        <a class="location-cta" href="#book">Book at Katy →</a>
+        <a class="location-cta" href="tel:(832)981-7004">Call Katy →</a>
       </div>
       <svg width="120" height="160" viewBox="0 0 120 160" fill="none" aria-hidden="true">
         <circle cx="60" cy="60" r="34" stroke="#C9A55C" stroke-width="1.4" fill="none"/>
@@ -529,19 +530,38 @@ body {
       <span class="location-stamp">Houston</span>
       <div>
         <div class="city display">Houston<em>.</em></div>
-        <p class="addr">Inner Loop · West University<br/>Address by booking</p>
+        <p class="addr">3701 W Alabama St #388<br/>Houston, TX 77027</p>
         <dl class="hours">
           <dt>Tue–Fri</dt><dd>10:00 — 7:00</dd>
           <dt>Saturday</dt><dd>10:00 — 5:00</dd>
           <dt>Sun–Mon</dt><dd>Closed</dd>
         </dl>
-        <a class="location-cta" href="#book">Book in Houston →</a>
+        <a class="location-cta" href="tel:(832)925-4769">Call Houston →</a>
       </div>
       <svg width="120" height="160" viewBox="0 0 120 160" fill="none" aria-hidden="true">
         <rect x="20" y="40" width="80" height="80" stroke="#C9A55C" stroke-width="1.4" fill="none"/>
         <rect x="40" y="60" width="40" height="40" fill="#C9A55C" opacity=".4"/>
         <circle cx="60" cy="80" r="6" fill="#C9A55C"/>
         <path d="M60 120 V148" stroke="#C9A55C" stroke-width="1.4" stroke-dasharray="3 4"/>
+      </svg>
+    </div>
+    <div class="location-card reveal reveal-d-2">
+      <span class="location-stamp">Spring</span>
+      <div>
+        <div class="city display">Spring<em>.</em></div>
+        <p class="addr">21191 Kuykendahl Rd<br/>Spring, TX 77379</p>
+        <dl class="hours">
+          <dt>Mon–Fri</dt><dd>9:00 — 6:00</dd>
+          <dt>Saturday</dt><dd>10:00 — 4:00</dd>
+          <dt>Sunday</dt><dd>By appointment</dd>
+        </dl>
+        <a class="location-cta" href="tel:(713)933-5371">Call Spring →</a>
+      </div>
+      <svg width="120" height="160" viewBox="0 0 120 160" fill="none" aria-hidden="true">
+        <circle cx="60" cy="60" r="34" stroke="#C9A55C" stroke-width="1.4" fill="none"/>
+        <circle cx="60" cy="60" r="10" fill="#C9A55C"/>
+        <path d="M60 94 V148" stroke="#C9A55C" stroke-width="1.4" stroke-dasharray="3 4"/>
+        <path d="M52 148 H68" stroke="#C9A55C" stroke-width="1.4"/>
       </svg>
     </div>
   </div>
@@ -568,7 +588,7 @@ body {
         <span class="brand-mark"></span>
         LINOR<span style="opacity:.4;margin:0 4px;">·</span>AESTHETIC
       </a>
-      <p class="footer-tag">Refined. Natural. You. — Aesthetic medicine, quietly elevated. Houston &amp; Katy, Texas.</p>
+      <p class="footer-tag">Refined. Natural. You. — Aesthetic medicine, quietly elevated. Houston, Katy &amp; Spring, Texas.</p>
     </div>
     <div>
       <h6>Practice</h6>
@@ -584,6 +604,7 @@ body {
       <ul>
         <li><a href="#locations">Katy Studio</a></li>
         <li><a href="#locations">Houston Studio</a></li>
+        <li><a href="#locations">Spring Studio</a></li>
         <li><a href="#book">Book Consultation</a></li>
         <li><a href="mailto:hello@linoraesthetic.com">hello@linor.com</a></li>
       </ul>
